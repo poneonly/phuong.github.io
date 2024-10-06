@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .sidebar, .main-page {
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            margin: 10px 0;
+        }
+        .home-bar, .projects, .work-experience, .education, .teacher-reviews {
+            margin-bottom: 20px;
+        }
+        .home-bar {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px; /* Space between home-bar items */
+            margin-bottom: 0;
+            padding: 0; /* Remove padding */
+        }
+        .home-bar div {
+            margin: 0; /* Remove margin for closeness */
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        .middle-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .middle-container > div {
+            flex: 1;
+            margin: 0 10px;
+        }
+        .reviews {
+            margin-top: 10px;
+        }
+        .image {
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        .image2 {
+            width: 10%;
+            display: inline;
+        }
+        .name2 {
+            display: inline;
+        }
+        .name {
+            text-align: center;
+        }
+
+        .right-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="top">
+                <img class="image" src="ron.png" alt="">
+                <h1 class="name">Phuong Tran</h1>
+                <div class="home-bar">
+                    <div>Home</div>
+                    <div>Projects</div>
+                    <div>Articles</div>
+                    <div>Contact</div>
+                </div>
+                <h2>Frontend Developer</h2>
+            </div>
+            
+            <div class="projects">
+                <h3>Projects</h3>
+                <div><a href="https://github.com/poneonly/Food-Delivery-Application" target="_blank">Food Delivery Application</a></div>
+                <div><a href="https://github.com/poneonly/OOP_lab" target="_blank">Platform Game</a></div>
+                <div><a href="https://github.com/poneonly/Minesweeper_Repo" target="_blank">Minesweeper Game</a></div>
+            </div>
+            
+            <div class="work-experience">
+                <h3>Work Experience</h3>
+                <div>
+                    <strong>OpenSource Work</strong><br>
+                    Contributed to 50 open-source projects.<br>
+                    Made my own projects with 200 GitHub stars.<br>
+                    <a href="https://github.com/poneonly" target="_blank">Visit my GitHub Profile</a>
+                </div>
+            </div>
+            
+            <div class="education">
+                <h3>Education</h3>
+                <p>Graduated with a 3.76/4 GPA. Won ACME Hackathon.<br>
+                Courses I took:</p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Database Management Principles</li>
+            </ul>
+            </div>
+            
+            <div class="teacher-reviews">
+                <h3>Reviews from my Teachers</h3>
+                <div class="reviews">
+                    <p>John Doe was a good student.</p>
+                    <p class="teacher">Jane Doe <br>Assistant Professor</p>
+                </div>
+            </div>
+            <div class="footer">
+                &copy; All rights reserved 2025
+            </div>
+        </div>
+
+        <div class="main-page">
+            <div class="right-top">
+                <img class="image2" src="ron.png" alt="">
+                <h1 class="name2">Phuong Tran</h1>
+                <div class="home-bar">
+                    <div>Home</div>
+                    <div>Projects</div>
+                    <div>Articles</div>
+                    <div>Contact</div>
+                </div>
+            </div>
+
+            <h2>Frontend Developer</h2>
+
+            <div class="middle-container">
+                <div class="left">
+                    <h3>Projects</h3>
+                    <div><a href="https://github.com/poneonly/Food-Delivery-Application">Food Delivery Application</a></div>
+                    <div>Calculator</div>
+                    <div>Quiz App</div>
+                    <div>Countdown Timer</div>
+                    <div>Product Upcoming Page</div>
+                </div>
+                <div class="mid">
+                    <h3>Work Experience</h3>
+                    <div>Open-source Work</div>
+                </div>
+                <div class="right">
+                    <h3>Education</h3>
+                    <p>Graduated with a 3.76/4 GPA. Won ACME Hackathon.<br>
+                    Courses I took:</p>
+                    <ul>
+                        <li>Object Oriented Programming</li>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Database Management Principles</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <h3>Reviews from my Teachers</h3>
+                <div class="reviews">
+                    <p>John Doe was a good student.</p>
+                    <p class="teacher">Jane Doe <br>Assistant Professor</p>
+                </div>
+                <div class="reviews">
+                    <p>John Doe was a good student.</p>
+                    <p class="teacher">Jane Doe <br>Assistant Professor</p>
+                </div>
+                <div class="reviews">
+                    <p>John Doe was a good student.</p>
+                    <p class="teacher">Jane Doe <br>Assistant Professor</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
